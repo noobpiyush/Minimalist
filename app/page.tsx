@@ -1,3 +1,4 @@
+import { FeaturedPosts } from "@/components/featured-posts";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
@@ -26,6 +27,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <FeaturedPosts/>
     </main>
   );
 }

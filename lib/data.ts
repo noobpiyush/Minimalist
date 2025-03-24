@@ -65,7 +65,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Learn how to cultivate creativity and find design inspiration in the world around you.",
     content:
       "Creativity doesn't exist in a vacuum—it's fueled by our experiences, observations, and interactions with the world around us. For designers and creators, finding fresh inspiration is essential to producing innovative work.\n\nOne of the most effective ways to spark creativity is simply to pay attention to your surroundings. The patterns in nature, the architecture in your city, the color combinations in a market—all of these can trigger new ideas and perspectives that inform your work.\n\nCreating a habit of curiosity helps maintain a steady flow of inspiration. This might involve keeping a sketchbook, taking photos of interesting details, or collecting objects that have appealing forms or textures. The act of documenting what catches your eye trains you to notice more.\n\nExposing yourself to diverse influences is equally important. Read widely, explore different art forms, learn about other cultures and disciplines. Cross-pollination of ideas often leads to the most interesting creative breakthroughs.\n\nRemember that inspiration isn't just about visual input—conversations, music, physical experiences, and even challenges or constraints can all spark new ideas. By remaining open and attentive to the full spectrum of life experiences, you create fertile ground for creativity to flourish.",
-    coverImage: "/placeholder.svg?height=630&width=1200",
+    coverImage: "/joy.jpg",
     date: "February 20, 2024",
     author: "Sarah Williams",
     category: "creativity",
@@ -79,7 +79,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Why accessibility should be a priority in your design process and how to implement it effectively.",
     content:
       "Accessibility in design isn't just a nice-to-have feature or a compliance checkbox—it's a fundamental aspect of creating products that truly serve all users. When we design with accessibility in mind, we're acknowledging that people interact with technology in diverse ways.\n\nThe principles of accessible design benefit everyone, not just users with permanent disabilities. Consider how voice interfaces, originally developed for blind users, are now mainstream through virtual assistants. Or how captions, essential for deaf users, are regularly used by people watching videos in noisy environments or learning a new language.\n\nImplementing accessibility starts with understanding the guidelines (such as WCAG) but goes beyond compliance to empathy and inclusion. This means considering keyboard navigation, screen reader compatibility, sufficient color contrast, clear information hierarchy, and alternative text for images.\n\nTesting with real users who have disabilities provides invaluable insights that automated tools can't capture. Their experiences and feedback often reveal issues and opportunities that wouldn't otherwise be apparent.\n\nBy integrating accessibility from the beginning of the design process rather than treating it as an afterthought, we create more robust, flexible, and usable products. This approach not only serves a wider audience but often results in better design solutions for everyone.",
-    coverImage: "/placeholder.svg?height=630&width=1200",
+    coverImage: "/acc1.jpg",
     date: "February 15, 2024",
     author: "Alex Rodriguez",
     category: "design",
