@@ -6,11 +6,14 @@ import { motion } from "framer-motion"
 import { Calendar, Clock, User } from "lucide-react"
 import { blogPosts } from "@/lib/data"
 import { notFound } from "next/navigation"
+import { use } from "react";
 
-export default function BlogPost({ params }: { params: { slug: string } }) {
+export default function BlogPost({ params }: { params: Promise<{ slug: string }> }) {
   const articleRef = useRef<HTMLElement>(null)
+const paramSlug = use(params).slug
 
-  const post = blogPosts.find((post) => post.slug === params.slug)
+
+  const post = blogPosts.find((post) => post.slug === paramSlug )
 
   if (!post) {
     notFound()
